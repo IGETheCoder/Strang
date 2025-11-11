@@ -5,7 +5,13 @@ Have you ever had to worry or even consider what datatype a variable is that you
 This programming language is the closest you can get to perfection in the world!!
 
 ## Table Of Contents:
-- [Supported Datatypes](#SupportedDatatypes)
+- [Supported Datatypes](#supported-datatypes)
+- [Declaration](#declaration)
+- [Debugging](#debugging)
+- [String Literals](#string-literals)
+- [Basic Arithmatic](#basic-arithmatic)
+- [Debugging](#debugging)
+- [Debugging](#debugging)
 
 ## Supported Datatypes:
 
