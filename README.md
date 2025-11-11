@@ -152,7 +152,7 @@ let hallo = "Hello " + "World";
 ?hallo; //Hello World
 ```
 
-Subtraction has 2 variants. The default is `>-`.<br>
+Subtraction has 2 variants. The `-` operator acts identically to `>-`.<br>
  - `>-` Trim End
  - `-<` Trim Start
 
