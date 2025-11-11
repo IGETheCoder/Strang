@@ -101,7 +101,7 @@ let string `= \     SO MUCH WHITESPACE;
 
 ## Basic Arithmetic
 
-Strang supports all arithmetic operators (`+`, `-`, `*`, `/`) and uses the string length as an _'integer'_ value. The standard character is `!`.
+Strang supports all arithmetic operators (`+`, `-`, `*`, `/`) and uses the string length as an _'integer'_ value. Arithmetic operations interpret string length using the `!` character by convention.
 
 ```java
 // Addition
@@ -110,17 +110,17 @@ let example = "!!" + "!!!";
 ```
 ```java
 // Subtraction
-let example = "!!!!!" + "!!";
+let example = "!!!!!" - "!!";
 ?example; // !!!
 ```
 ```java
 // Multiplication
-let example = "!!" + "!!!!";
+let example = "!!" * "!!!!";
 ?example; // !!!!!!!!
 ```
 ```java
 // Division
-let example = "!!!!!!" + "!!";
+let example = "!!!!!!" / "!!";
 ?example; // !!!
 ```
 
@@ -133,7 +133,7 @@ let ten = "10"!;
 
 ## Basic Operators
 
-Although the standard character for basic Arithmetic is `!` you can still use other characters!
+Although the standard character for arithmetic length is `!` you can still use other characters!
 
 ```java
 // Multiplication
