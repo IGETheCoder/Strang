@@ -38,7 +38,7 @@ The more `?` you use, the more severe the debug log will be.
 ?"I LOVE STRANG";                //[LOG] I LOVE STRANG
 ??"WE ALL LOVE STRANG";          //[WARNING] WE ALL LOVE STRANG
 ???"IT'S POWER IS TOO GREAT!!!"; //[ERROR] IT'S POWER IS TOO GREAT!!!
-//                                 thrown 'IT'S POWER IS TOO GREAT!!!'
+// thrown 'IT'S POWER IS TOO GREAT!!!'
 ```
 
 For logs of severity `WARNING` and above, Strang will add info about where the error was found.
@@ -171,3 +171,11 @@ let 10 = "8"!;
 let 4 = "4"!;
 ?4 + 4 == 10; //true
 ```
+
+## Other Operators:
+
+Check out all the operators [here](google.com)!
+
+### String Manipulation
+
+Strang offers plenty of operators for string manipulation, built straight in!
