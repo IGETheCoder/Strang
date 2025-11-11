@@ -4,6 +4,9 @@ The greatest programming language to ever bless this Earth!<br>
 Have you ever had to worry or even consider what datatype a variable is that you declared ages ago? Let that worry _wash away_! Strang makes all datatypes `string`!<br>
 This programming language is the closest you can get to perfection in the world!!
 
+## Table Of Contents:
+- [Supported Datatypes](#SupportedDatatypes)
+
 ## Supported Datatypes:
 
 Here is an extensive list of all datatypes Strang supports:<br>
