@@ -52,18 +52,34 @@ For logs of severity `WARNING` and above, Strang will add info about where the e
 ## String Literals:
 
 Most programming languages define strings using `"` quote marks. Some with `'` single quote marks. In Strang, you can use any amount of quotation marks, as long as if the start and end quotes add up the same.
- - ```'LEGAL'```
- - ```""LEGAL""```
- - ```''''LEGAL""```
- - ```""''"'LEGAL"''"'"```
+```
+'LEGAL'
+""LEGAL""
+''''LEGAL""
+""''"'LEGAL"''"'"
+```
  - But if the amout of quotes are mismatched, it is an illegal string definition
- - ```"ILLEGAL'```
- - ```"ILLEGAL"'```
+```
+"ILLEGAL'
+"ILLEGAL"'
+```
 
-Even no quotation marks! But only when assigning to a variable
+Even no quotation marks! But only when assigning to a variable. All whitespace before the first character are ommited.
 ```
 let string `= I HAVE NO STRINGS ON ME!;
 ?string; //I HAVE NO STRINGS ON ME!
+```
+
+Why use this? It's actually a very clear way for declaring string variables of zero length!
+```
+let empty `=;
+?empty; //
+```
+
+If you want to define a string using ```var `=``` and have the variable start with whitespace, put a `\` and Strang will omit all whitespace up to that point.
+```
+let string `= \     SO MUCH WHITESPACE;
+?string; //     SO MUCH WHITESPACE
 ```
 
 ## Basic Arithmatic
