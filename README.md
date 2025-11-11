@@ -1,0 +1,2 @@
+# Strang
+greatest programming language
