@@ -36,35 +36,39 @@ Strang offers plenty of operators for string manipulation, built straight in.
 ?"hello world" --- "lo"; //he wrd
  ```
  Removes all the matches from _target_, based on the _pattern_ (case sensitive):<br>
- Remove Substring will remove all the text from the _target_, if they match the string, letter for letter.<br>
- Remove Characters will remove any character that is from the _pattern_
+ `--` will remove all the text from the _target_, if they match the string, letter for letter.<br>
+ `---` will remove any character that is from the _pattern_
 - `>-` , `-<` **Trim End** _and_ **Trim Start**:
  ```java
 ?"abcde" >- "!!";  //abc
 ?"abcde" -< "!!";  //cde
  ```
+ Removes _n length_ from the beggining or end of the target string, depending on the operator used.
 - `%` **Truncate**:
  ```java
 ?"ABCDEFGHIJKLMNOP" % "GHI";  //ABCDEF
 ?"3.14159265" % "15";  //3.14
  ```
+ Keeps all the characters from the _target_ up until the _pattern_ is found, and the rest of the _target_ is removed.
 
 ## '*Bool*'ean Operators
 
 Strang doesn't support the _'boolean'_ datatype, so Strang uses string literals of `"true"` _and_ `"false"`.<br>
 Unlike most programming lanuages, Strang much prefers to use, beautiful, juicy words instead of _grotesque symbols._
 
- - `AND`
- - `OR`
- - `XOR`
- - `XAND`
+ - `AND` both sides true
+ - `OR` either sides true
+ - `XOR` both sides differ
+ - `XAND` both sides are the same
 
-But we like `!` to be 'not' instead of `NOT`. Why? i dont know.
+But we like `!` to be 'not' instead of `NOT`. Why? i dont know.<br>
+still dont know...
 
 ```java
 let bobobolo = !"true";
 ?bobobolo; //false
 ```
+`!` is `true` if the input is `false`<br><br>
 
 If you use a _'boolean'_ operator on a non-_'boolean'_ string, such as `TRUTH`, instead of throwing, we follow what the best of the best do.<br>
 `maybe`
@@ -105,21 +109,27 @@ Who said you could stop at that!
 ?"apple" == "apple"; //true
 ?"apple" == "zebra"; //false
 ```
+Is true if both sides match letter for letter, and is case sensitive.
 - `!=` **Not Equals** (not length)
 ```java
 ?"apple" != "apple"; //false
 ?"apple" != "zebra"; //true
 ```
+Is true if both sides do NOT match letter for letter, and is case sensitive.
 - `<` , `>` **Less Than** _and_ **Greater Than** (length)
 ```java
 ?"banana" > "apple"; //true
 ?"5"! < "8"!;        //true
 ```
+`<` Is true if left side is shorter than the right side<br>
+`>` Is true if left side is longer than the right side
 - `<=` , `>=` **(Less Than** _and_ **Greater Than) Or Equals** (length)
 ```java
 ?"3"! > "3"!;  //false
 ?"3"! >= "3"!; //true
 ```
+`<=` Is true if left side is shorter than the right side or is the same<br>
+`>=` Is true if left side is longer than the right side or is the same
 
 ## Extra Operators
 
