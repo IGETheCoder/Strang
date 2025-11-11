@@ -35,9 +35,9 @@ Strang offers plenty of operators for string manipulation, built straight in.
 ?"hello world" -- "lo";  //hel world
 ?"hello world" --- "lo"; //he wrd
  ```
- Removes all the matches from _target_, based on the _pattern_ (case sensitive):
- <p>  Remove Substring will remove all the text from the _target_, if they match the string, letter for letter.</p>
- <p>  Remove Characters will remove any character that is from the _pattern_</p>
+ Removes all the matches from _target_, based on the _pattern_ (case sensitive):<br>
+ Remove Substring will remove all the text from the _target_, if they match the string, letter for letter.<br>
+ Remove Characters will remove any character that is from the _pattern_
 - `>-` , `-<` **Trim End** _and_ **Trim Start**:
  ```java
 ?"abcde" >- "!!";  //abc
