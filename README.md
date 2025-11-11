@@ -364,8 +364,6 @@ while ("true")
 }
 ```
 
-_i dont think i needed to explain that_
-
 ## Functions
 
 Functions are declared using either of these keywords: `func` , `funcstr`<br>
