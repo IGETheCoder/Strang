@@ -405,17 +405,32 @@ Calling the function is as simple as `FunctionName()` or if the function has arg
 
 The best language ever! You should use it for your everyday programming! Convince your boss to switch to Strang now!
 <br><br>
-Here is a Strang program to help convince your boss to use Strang
 
+Here is a Strang program to help convince your boss to use Strang
 ```java
 let bossName = "[ENTER BOSS NAME]";
 let yourName = "[ENTER YOUR NAME]";
 
 ?"Hello " + bossName + "!";
-?"I have noticed our current programming language, lacks significant and required features, to help speed production.";
+?"I have noticed our current programming language, lacks significant and necessary features, to help speed production.";
 ?"This proposal suggests the solution to our major decline in sales and investors! We don't use new innovate langauges!";
 ?"Very simple fix, get all your developers to transition into the greatest language ever, Strang!";
 ?"Kind Regards, " + yourName;
+```
+
+And if you need to prove your point even stronger, spam them!
+```java
+while ("true")
+{
+    let bossName = "[ENTER BOSS NAME]";
+    let yourName = "[ENTER YOUR NAME]";
+    
+    ?"Hello " + bossName + "!";
+    ?"I have noticed our current programming language, lacks significant and necessary features, to help speed production.";
+    ?"This proposal suggests the solution to our major decline in sales and investors! We don't use new innovate langauges!";
+    ?"Very simple fix, get all your developers to transition into the greatest language ever, Strang!";
+    ?"Kind Regards, " + yourName;
+}
 ```
 
 ## Extras:
