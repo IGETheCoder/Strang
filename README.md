@@ -292,12 +292,12 @@ Who said you could stop at that!
 ?"apple" != "apple"; //false
 ?"apple" != "zebra"; //true
 ```
-- `<` , `>` **Less Than** _and_ **Greater Than** (is length)
+- `<` , `>` **Less Than** _and_ **Greater Than** (length)
 ```java
 ?"banana" > "apple"; //true
 ?"5"! < "8"!;        //true
 ```
-- `<` , `>` (**Less Than** _and_ **Greater Than**) **Or Equals** (is length)
+- `<=` , `>=` **(Less Than** _and_ **Greater Than) Or Equals** (length)
 ```java
 ?"3"! > "3"!;  //false
 ?"3"! >= "3"!; //true
