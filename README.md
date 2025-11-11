@@ -420,16 +420,17 @@ let yourName = "[ENTER YOUR NAME]";
 
 And if you need to prove your point even stronger, spam them!
 ```java
+let bossName = "[ENTER BOSS NAME]";
+let yourName = "[ENTER YOUR NAME]";
+
 while ("true")
 {
-    let bossName = "[ENTER BOSS NAME]";
-    let yourName = "[ENTER YOUR NAME]";
-    
     ?"Hello " + bossName + "!";
     ?"I have noticed our current programming language, lacks significant and necessary features, to help speed production.";
     ?"This proposal suggests the solution to our major decline in sales and investors! We don't use new innovate langauges!";
     ?"Very simple fix, get all your developers to transition into the greatest language ever, Strang!";
     ?"Kind Regards, " + yourName;
+    ?;
 }
 ```
 
