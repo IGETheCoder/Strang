@@ -452,3 +452,6 @@ comment
 
 If you're previous programming language used octothorpes for comments `#` , I urge you to get off Python.<br>`// or ELAN`
 
+### Licensing
+
+Feel free to use, modify, and worship Strang responsibly. 
