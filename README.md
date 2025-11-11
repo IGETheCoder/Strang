@@ -401,6 +401,8 @@ Calling the function is as simple as `FunctionName()` or if the function has arg
 
 ## Installation
 
+Almost finished making the interpreter. Just some edge cases, bug fixes, and unimplemented keywords!
+
 ## Conclusion
 
 The best language ever! You should use it for your everyday programming! Convince your boss to switch to Strang now!
