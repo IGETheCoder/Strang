@@ -1,6 +1,6 @@
 # Strang
 
-The greatest programming language to ever bless this earth! Have you ever had to worry or even consider what datatype a variable is that you declared ages ago?<br>
+The greatest programming language to ever bless this Earth! Have you ever had to worry or even consider what datatype a variable is that you declared ages ago?<br>
 Let that worry wash away! Strang makes all datatypes a `string`!
 
 ## Supported Datatypes:
@@ -49,6 +49,23 @@ For logs of severity `WARNING` and above, Strang will add info about where the e
 // 'Where is this problem happening?'
 ```
 
+## String Literals:
+
+Most programming languages define strings using `"` quote marks. Some with `'` single quote marks. In Strang, you can use any amount of quotation marks, as long as if the start and end quotes add up the same.
+ - ```'LEGAL'```
+ - ```""LEGAL""```
+ - ```''''LEGAL""```
+ - ```""''"'LEGAL"''"'"```
+ - But if the amout of quotes are mismatched, it is an illegal string definition
+ - ```"ILLEGAL'```
+ - ```"ILLEGAL"'```
+
+Even no quotation marks! But only when assigning to a variable
+```
+let string `= I HAVE NO STRINGS ON ME!;
+?string; //I HAVE NO STRINGS ON ME!
+```
+
 ## Basic Arithmatic
 
 Strang supports all arithmetic operators (`+`, `-`, `*`, `/`) and uses the string length as an integer number. The standard character is `!`.
@@ -81,14 +98,44 @@ let ten = "10"!;
 ?ten; // !!!!!!!!!!
 ```
 
-## Operators
+## Basic Operators
 
 Although the standard character for basic arithmatic is `!` you can still use other characters!
 
 ```java
 // Multiplication
-let laugh = "ha" * "!!!";
-?laugh; // hahaha
+let laugh = "ha" * "123";
+?laugh; //hahaha
+```
+```java
+// Division
+let example = "abcdef" / "AB";
+?example; //abc
+```
+```java
+// Addition
+let hallo = "Hello " + "World";
+?hallo; //Hello World
+```
+
+Subtraction has 2 variants. The default is `>-`.<br>
+ - `>-` Trim End
+ - `-<` Trim Start
+
+```java
+// Subtraction (same as >-)
+let subtract = "abcde" - "!!";
+?subtract //abc
+```
+```java
+// Trim End
+let trimEnd = "HELP ME" >- "!!!";
+?trimEnd //HELP
+```
+```java
+// Trim Start
+let trimStart = "Strang, not C Is Goated" -< "!!!!!!!!!!!!";
+?trimStart //C Is Goated
 ```
 
 ## Naming:
