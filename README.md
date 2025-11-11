@@ -1,8 +1,8 @@
 # Strang
 
-<p>The greatest programming language to ever bless this Earth!</p>
-<p>Have you ever had to worry, or even consider what datatype a variable is that you declared decades ago? Let that worry _wash away_! Strang makes all datatypes `string`!</p>
-<p>This programming language is the closest you can get to perfection in the world!!</p>
+The greatest programming language to ever bless this Earth!<br><br>
+Have you ever had to worry, or even consider what datatype a variable is that you declared decades ago? Let that worry _wash away_! Strang makes all datatypes `string`!<br><br>
+This programming language is the closest you can get to perfection in the world!!<br><br>
 
 ## Table Of Contents:
 - [Supported Datatypes](#supported-datatypes)
