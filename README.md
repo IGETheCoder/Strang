@@ -319,7 +319,7 @@ Who said you could stop at that!
 
 ## Selection
 
-Strang has the `if` , `if...else` and `if...else if` keywords, and expect the conditional to be `"true"` or `"false"`.
+Strang has the `if` , `if...else` and `if...else if` keywords for selection, and expect the conditional to be `"true"` or `"false"`.
 
 ```java
 if ("5"! > "2"!)
@@ -331,6 +331,8 @@ else
     ???"how did you manage that";
 }
 ```
+
+If Strang gets a non-_'boolean'_ string, it will throw. I was considering another keyword, like `grasp` to use for non-'*boolean*'s, and will probably be implemented in the close future!
 
 ## Conclusion
 
