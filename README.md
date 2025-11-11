@@ -398,6 +398,22 @@ Calling the function is as simple as `FunctionName()` or if the function has arg
 ?Concat("Hello","World");
 ```
 
+## Extras:
+
+### Comments
+
+Strang does have comments, and will ignore what's in it.
+
+```java
+// single-line comment
+/*
+multi-line
+comment
+*/
+```
+
+If you're previous programming language used octothorpes for comments `#` , I urge you to get off Python.<br>`// or ELAN`
+
 ## Conclusion
 
 The best language ever! You should use it for your everyday programming! Convince your boss to switch to Strang now!
