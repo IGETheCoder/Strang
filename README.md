@@ -219,7 +219,7 @@ Strang offers plenty of operators for string manipulation, built straight in.
 ?"3.14159265" % "15";  //3.14
  ```
 
-### Boolean Operators
+### '*Bool*'ean Operators
 
 Strang doesn't support the _'boolean'_ datatype, so Strang uses string literals of `"true"` _and_ `"false"`.<br>
 Unlike most programming lanuages, Strang much prefers to use, beautiful, juicy words instead of _grotesque symbols._
@@ -236,7 +236,7 @@ let bobobolo = !"true";
 ?bobobolo; //false
 ```
 
-If you use a boolean operator on a non-boolean string, such as `TRUTH`, instead of throwing, we follow what the best of the best do.<br>
+If you use a _'boolean'_ operator on a non-_'boolean'_ string, such as `TRUTH`, instead of throwing, we follow what the best of the best do.<br>
 `maybe`
 
 ```java
@@ -246,7 +246,7 @@ let what = !"TRUTH";
 
 #### Why stop there?
 
-If you try performing boolean operators on `maybe`, you get:
+If you try performing _'boolean'_ operators on `maybe`, you get:
 ```java
 ?!"maybe"; // possibly
 ```
@@ -266,4 +266,18 @@ Who said you could stop at that!
 
 ```java
 ?!"okay this is the last one"; //i lied
+```
+
+### Extra Operators
+
+- `<<` , `>>` **Starts With** _and_ **Ends With**
+```java
+?"banana" << "ba"; //true
+?"banana" >> "ba"; //false
+?"banana" >> "na"; //true
+```
+- `~` **Contains**
+```java
+?"hello world" ~ "lo"; //true
+?"apple" ~ "z"; //false
 ```
