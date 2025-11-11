@@ -9,7 +9,7 @@ This programming language is the closest you can get to perfection in the world!
 - [Declaration](#declaration)
 - [Debugging](#debugging)
 - [String Literals](#string-literals)
-- [Basic Arithmatic](#basic-arithmatic)
+- [Basic Arithmetic](#basic-Arithmetic)
 - [Basic Operators](#basic-operators)
 - [Naming](#naming)
 - [Operators](#operators)
@@ -75,13 +75,13 @@ Most programming languages define strings using `"` quote marks. Some with `'` s
 ''''LEGAL""
 ""''"'LEGAL"''"'"
 ```
- - But if the amout of quotes are mismatched, it is an illegal string definition.
+ - But if the amount of quotes are mismatched, it is an illegal string definition.
 ```
 "ILLEGAL'
 "ILLEGAL"'
 ```
 
-Even no quotation marks! But only when assigning to a variable. All whitespace before the first character are ommited.
+Even no quotation marks! But only when assigning to a variable. All whitespace before the first character are omitted.
 ```
 let string `= I HAVE NO STRINGS ON ME!;
 ?string; //I HAVE NO STRINGS ON ME!
@@ -99,7 +99,7 @@ let string `= \     SO MUCH WHITESPACE;
 ?string; //     SO MUCH WHITESPACE
 ```
 
-## Basic Arithmatic
+## Basic Arithmetic
 
 Strang supports all arithmetic operators (`+`, `-`, `*`, `/`) and uses the string length as an _'integer'_ value. The standard character is `!`.
 
@@ -133,7 +133,7 @@ let ten = "10"!;
 
 ## Basic Operators
 
-Although the standard character for basic arithmatic is `!` you can still use other characters!
+Although the standard character for basic Arithmetic is `!` you can still use other characters!
 
 ```java
 // Multiplication
@@ -236,7 +236,7 @@ Strang offers plenty of operators for string manipulation, built straight in.
 ### '*Bool*'ean Operators
 
 Strang doesn't support the _'boolean'_ datatype, so Strang uses string literals of `"true"` _and_ `"false"`.<br>
-Unlike most programming lanuages, Strang much prefers to use, beautiful, juicy words instead of _grotesque symbols._
+Unlike most programming languages, Strang much prefers to use, beautiful, juicy words instead of _grotesque symbols._
 
  - `AND`
  - `OR`
@@ -355,7 +355,7 @@ foreach (let c in target)
 //t
 ```
 
-We also have `while`, which acts similiarlly to `if`, except it loops. Like most programming languages...
+We also have `while`, which acts similarly to `if`, except it loops. Like most programming languages...
 
 ```java
 while ("true")
@@ -369,7 +369,7 @@ while ("true")
 Functions are declared using either of these keywords: `func` , `funcstr`<br>
 <br>
 `func` doesn't expect a return value,<br>
-`funcstr` does expect a return value.
+`funcstr` expect a return value.
 
 ```java
 func Test()
