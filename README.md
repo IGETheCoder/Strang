@@ -355,7 +355,16 @@ foreach (let c in target)
 //t
 ```
 
-We also have `while`, which acts similiarlly to `if`, except it loops. Like most programming languages... _i dont think i needed to explain that_
+We also have `while`, which acts similiarlly to `if`, except it loops. Like most programming languages...
+
+```java
+while ("true")
+{
+    ?"BEWARE THE MAN WHO SPEAKS IN HANDS";
+}
+```
+
+_i dont think i needed to explain that_
 
 ## Functions
 
