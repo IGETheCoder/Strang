@@ -281,7 +281,7 @@ Who said you could stop at that!
 ?!"okay this is the last one"; //i lied
 ```
 
-## Relational Operators
+### Relational Operators
 
 - `==` **Equals** (not length)
 ```java
