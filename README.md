@@ -172,10 +172,29 @@ let 4 = "4"!;
 ?4 + 4 == 10; //true
 ```
 
-## Other Operators:
+## Operators:
 
-Check out all the operators [here](google.com)!
+Check out all the operator definitions [here]()!
 
 ### String Manipulation
 
 Strang offers plenty of operators for string manipulation, built straight in!
+ - `#` **Interweave** 
+ ```java
+?"abc" # "xy"; //axaybxbycxcy
+ ```
+ - `^` , `^^` **To Lower** _and_ **To Upper**
+ ```java
+?"HIGH"^; //high
+?"low"^^; //LOW
+ ```
+ - `--` , `---` **Remove Substring** _and_ **Remove Characters**
+ ```java
+?"hello world" -- "lo";  //hel world
+?"hello world" --- "lo"; //he wrd
+ ```
+- `>-` , `-<` **Trim End** _and_ **Trim Start**
+ ```java
+?"abcde" >- "!!";  //abc
+?"abcde" -< "!!";  //cde
+ ```
