@@ -9,11 +9,11 @@ This programming language is the closest you can get to perfection in the world!
 Here is an extensive list of all datatypes Strang supports:<br>
 - `string`
 
-The very mention of other datatypes will make `string` jealous, so I will whisper those datatypes.
+The very mention of other datatypes will make `string` jealous, so I will _'whisper'_ other datatypes.
 
 ## Declaration:
 
-Declaring a variable is as easy as using the `let` keyword. You cannot have null variables, so you must assign the variable to a value.
+Declaring a variable is as easy as using the `let` keyword. You cannot have _'null'_ variables, so you must assign the variable to a value.
 
 ```java
 let variable = "value";
@@ -87,7 +87,7 @@ let string `= \     SO MUCH WHITESPACE;
 
 ## Basic Arithmatic
 
-Strang supports all arithmetic operators (`+`, `-`, `*`, `/`) and uses the string length as an _'integer'_ number. The standard character is `!`.
+Strang supports all arithmetic operators (`+`, `-`, `*`, `/`) and uses the string length as an _'integer'_ value. The standard character is `!`.
 
 ```java
 // Addition
@@ -181,7 +181,7 @@ Check out all the operator definitions [here]()!
 
 ### '*Int*'eger
 
-Strang itself doesn't support the `int` datatype, but there are still some _'int'_ operators that use the string length instead.
+Strang itself doesn't support the _'int'_ datatype, but there are still some _'int'_ operators that use the string length instead.
  - `"9"!` **Int Parse**
  ```java
 ?"6"!; //!!!!!! 
@@ -221,6 +221,24 @@ Strang offers plenty of operators for string manipulation, built straight in.
 
 ### Boolean Operators
 
-Strang doesn't support the `boolean` datatype, so Strang can use `"true"` `"false"` or `"maybe"`
+Strang doesn't support the _'boolean'_ datatype, so Strang uses string literals of `"true"` _and_ `"false"`.<br>
+Unlike most programming lanuages, Strang much prefers to use, beautiful, juicy words instead of _grotesque symbols._
 
+ - `AND`
+ - `OR`
+ - `XOR`
+ - `XAND`
 
+But we like `!` to be 'not' instead of `NOT`. Why? i dont know.
+
+```java
+let bobobolo = !"true";
+?bobobolo; //false
+```
+
+If you use a boolean operator on a non-boolean string, such as `TRUTH` instead of throwing, we follow what the best of the best do.
+
+```java
+let what = !"TRUTH";
+?what; //maybe
+```
