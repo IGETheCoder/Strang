@@ -13,6 +13,7 @@ This programming language is the closest you can get to perfection in the world!
 - [Basic Operators](#basic-operators)
 - [Naming](#naming)
 - [Operators](#operators)
+- [Selection](#selection)
 - [Conclusion](#conclusion)
 
 ## Supported Datatypes:
@@ -277,6 +278,29 @@ Who said you could stop at that!
 
 ```java
 ?!"okay this is the last one"; //i lied
+```
+
+## Relational Operators
+
+- `==` **Equals** (not length)
+```java
+?"apple" == "apple"; //true
+?"apple" == "zebra"; //false
+```
+- `!=` **Not Equals** (not length)
+```java
+?"apple" != "apple"; //false
+?"apple" != "zebra"; //true
+```
+- `<` , `>` **Less Than** _and_ **Greater Than** (is length)
+```java
+?"banana" > "apple"; //true
+?"5"! < "8"!;        //true
+```
+- `<` , `>` (**Less Than** _and_ **Greater Than**) **Or Equals** (is length)
+```java
+?"3"! > "3"!;  //false
+?"3"! >= "3"!; //true
 ```
 
 ### Extra Operators
