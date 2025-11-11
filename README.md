@@ -259,7 +259,7 @@ let what = !"TRUTH";
 
 If you try performing _'boolean'_ operators on `maybe`, you get:
 ```java
-?!"maybe"; // possibly
+?!"maybe"; //possibly
 ```
 
 This doesn't stop at `possibly`! Just like Strang!
@@ -291,6 +291,21 @@ Who said you could stop at that!
 ```java
 ?"hello world" ~ "lo"; //true
 ?"apple" ~ "z"; //false
+```
+
+## Selection
+
+Strang has the `if` , `if...else` and `if...else if` keywords, and expect the conditional to be `"true"` or `"false"`.
+
+```java
+if ("5"! > "2"!)
+{
+    ?"5 is bigger than 2!";
+}
+else
+{
+    ???"how did you manage that";
+}
 ```
 
 ## Conclusion
