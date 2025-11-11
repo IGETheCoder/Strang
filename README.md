@@ -334,7 +334,7 @@ else
 }
 ```
 
-If Strang gets a non-_'boolean'_ string, it will throw. I was considering another keyword, like `grasp` to use for non-'*boolean*'s, and will probably be implemented in the close future!
+If Strang gets a non-_'boolean'_ string, it will throw. I was considering adding another keyword, like `grasp` to use for non-'*boolean*'s, and it will probably be implemented in the close future!
 
 ## Loops
 
