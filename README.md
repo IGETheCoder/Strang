@@ -10,8 +10,10 @@ This programming language is the closest you can get to perfection in the world!
 - [Debugging](#debugging)
 - [String Literals](#string-literals)
 - [Basic Arithmatic](#basic-arithmatic)
-- [Debugging](#debugging)
-- [Debugging](#debugging)
+- [Basic Operators](#basic-operators)
+- [Naming](#naming)
+- [Operators](#operators)
+- [Conclusion](#conclusion)
 
 ## Supported Datatypes:
 
@@ -290,3 +292,7 @@ Who said you could stop at that!
 ?"hello world" ~ "lo"; //true
 ?"apple" ~ "z"; //false
 ```
+
+## Conclusion
+
+The best language ever!
