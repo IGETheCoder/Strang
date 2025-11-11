@@ -236,9 +236,34 @@ let bobobolo = !"true";
 ?bobobolo; //false
 ```
 
-If you use a boolean operator on a non-boolean string, such as `TRUTH` instead of throwing, we follow what the best of the best do.
+If you use a boolean operator on a non-boolean string, such as `TRUTH`, instead of throwing, we follow what the best of the best do.<br>
+`maybe`
 
 ```java
 let what = !"TRUTH";
 ?what; //maybe
+```
+
+#### Why stop there?
+
+If you try performing boolean operators on `maybe`, you get:
+```java
+?!"maybe"; // possibly
+```
+
+This doesn't stop at `possibly`! Just like Strang!
+
+```java
+?!"maybe"; //possibly
+?!"possibly"; //probably
+?!"probably"; //probably not
+?!"probably not"; //quite frankly
+?!"quite frankly"; //could potentially
+?!"could potentially"; //okay this is the last one
+```
+
+Who said you could stop at that!
+
+```java
+?!"okay this is the last one"; //i lied
 ```
