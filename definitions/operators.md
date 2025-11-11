@@ -151,4 +151,4 @@ Is true if the _target_ contains the _pattern_ anywhere, and is case sensitive.
 
 ## Finished?
 
-Done? You can [Go Back](https://github.com/IGETheCoder/Strang/blob/main/README.md)
+You can [Go Back](https://github.com/IGETheCoder/Strang/blob/main/README.md)
