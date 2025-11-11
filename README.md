@@ -1,7 +1,7 @@
 # Strang
 
-The greatest programming language to ever bless this Earth!<br>
-Have you ever had to worry or even consider what datatype a variable is that you declared ages ago? Let that worry _wash away_! Strang makes all datatypes `string`!<br>
+The greatest programming language to ever bless this Earth!<br><br>
+Have you ever had to worry or even consider what datatype a variable is that you declared ages ago? Let that worry _wash away_! Strang makes all datatypes `string`!<br><br>
 This programming language is the closest you can get to perfection in the world!!
 
 ## Table Of Contents:
