@@ -7,10 +7,13 @@ Strang itself doesn't support the _'int'_ datatype, but there are still some _'i
  ```java
 ?"6"!; //!!!!!! 
  ```
+ Strang first parses the positive numeric string, and creates a new string with _n_ length of `!`.<br>
+ The `!` is the standard character for arithmatic in Strang.
 - `"target"["!!"]` **Char Of**
  ```java
 ?"apple"["!!!"]; //l
  ```
+ Find's the character of a _target_ string, that is _n length_ distance from the origin.
 
 ## String Manipulation
 
@@ -19,16 +22,22 @@ Strang offers plenty of operators for string manipulation, built straight in.
  ```java
 ?"abc" # "xy"; //axaybxbycxcy
  ```
+ Inspired by mathmetics: iteratively takes the first character from `stringA` and concatanates it with the first character from `stringB`. Then the second character from `stringA` so on ... (`stringA` is left, `stringB` is right)<br>
+ Makes the length of the string `a * b * 2`
  - `^` , `^^` **To Lower** _and_ **To Upper**:
  ```java
 ?"HIGH"^; //high
 ?"low"^^; //LOW
  ```
+ Converts all the letters from the _target_ string to lowercase or to uppercase, depending on the operator used.
  - `--` , `---` **Remove Substring** _and_ **Remove Characters**:
  ```java
 ?"hello world" -- "lo";  //hel world
 ?"hello world" --- "lo"; //he wrd
  ```
+ Removes all the matches from _target_, based on the _pattern_ (case sensitive):
+  - Remove Substring will remove all the text from the _target_, if they match the string, letter for letter.
+  - Remove Characters will remove any character that is from the _pattern_
 - `>-` , `-<` **Trim End** _and_ **Trim Start**:
  ```java
 ?"abcde" >- "!!";  //abc
