@@ -1,5 +1,7 @@
 # All Operators
 
+[Go Back](https://github.com/IGETheCoder/Strang/blob/main/README.md)
+
 ## '*Int*'eger
 
 Strang itself doesn't support the _'int'_ datatype, but there are still some _'int'_ operators that use the string length instead.
@@ -139,8 +141,14 @@ Is true if both sides do NOT match letter for letter, and is case sensitive.
 ?"banana" >> "ba"; //false
 ?"banana" >> "na"; //true
 ```
+Is true if the _target_ string has the _pattern_ at the start or end, depending on the operator: `<<` start, `>>` end.
 - `~` **Contains**
 ```java
 ?"hello world" ~ "lo"; //true
 ?"apple" ~ "z"; //false
 ```
+Is true if the _target_ contains the _pattern_ anywhere, and is case sensitive.
+
+## Finished?
+
+Done? You can [Go Back](https://github.com/IGETheCoder/Strang/blob/main/README.md)
