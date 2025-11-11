@@ -190,7 +190,7 @@ let 4 = "4"!;
 
 ## Operators:
 
-Check out all the operator definitions [here]()!
+Check out all the operator definitions [here](https://github.com/IGETheCode/Strang/definitions/operators.md)!
 
 ### '*Int*'eger
 
