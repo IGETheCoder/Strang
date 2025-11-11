@@ -9,7 +9,7 @@ This programming language is the closest you can get to perfection in the world!
 - [Declaration](#declaration)
 - [Debugging](#debugging)
 - [String Literals](#string-literals)
-- [Basic Arithmetic](#basic-Arithmetic)
+- [Basic Arithmetic](#basic-arithmetic)
 - [Basic Operators](#basic-operators)
 - [Naming](#naming)
 - [Operators](#operators)
