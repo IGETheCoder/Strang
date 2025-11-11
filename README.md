@@ -457,3 +457,9 @@ If you're previous programming language used octothorpes for comments `#` , I ur
 ### Licensing
 
 Feel free to use, modify, and worship Strang responsibly. 
+
+<div align="right">
+  <img src="https://github.com/IGETheCoder/Strang/blob/main/StrangLogo.png" width="64" alt="Strang Icon"/>
+  <br>
+  <sub><i>The official Strang logo</i></sub>
+</div>
