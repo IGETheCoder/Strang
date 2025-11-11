@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://github.com/IGETheCoder/Strang/blob/main/StrangLogoFull.png" height="200" />
+ <img src="https://github.com/IGETheCoder/Strang/blob/main/StrangLogoFull.png" height="200" alt="Strang" />
 </div>
 <br>
 The greatest programming language to ever bless this Earth!<br><br>
