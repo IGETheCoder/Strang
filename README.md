@@ -1,12 +1,15 @@
 # Strang
 
-The greatest programming language to ever bless this Earth! Have you ever had to worry or even consider what datatype a variable is that you declared ages ago?<br>
-Let that worry wash away! Strang makes all datatypes a `string`!
+The greatest programming language to ever bless this Earth!<br>
+Have you ever had to worry or even consider what datatype a variable is that you declared ages ago? Let that worry _wash away_! Strang makes all datatypes `string`!<br>
+This programming language is the closest you can get to perfection in the world!!
 
 ## Supported Datatypes:
 
 Here is an extensive list of all datatypes Strang supports:<br>
 - `string`
+
+The very mention of other datatypes will make `string` jealous, so I will whisper those datatypes.
 
 ## Declaration:
 
@@ -70,13 +73,13 @@ let string `= I HAVE NO STRINGS ON ME!;
 ?string; //I HAVE NO STRINGS ON ME!
 ```
 
-Why use this? It's actually a very clear way for declaring string variables of zero length!
+Why use ``var `=``? It's actually a simple way for declaring string variables of zero length!
 ```
 let empty `=;
 ?empty; //
 ```
 
-If you want to define a string using ```var `=``` and have the variable start with whitespace, put a `\` and Strang will omit all whitespace up to that point.
+If you want to define a string using ``var `=`` and have the variable start with whitespace, put a `\` and Strang will omit all whitespace up to that point.
 ```
 let string `= \     SO MUCH WHITESPACE;
 ?string; //     SO MUCH WHITESPACE
@@ -84,7 +87,7 @@ let string `= \     SO MUCH WHITESPACE;
 
 ## Basic Arithmatic
 
-Strang supports all arithmetic operators (`+`, `-`, `*`, `/`) and uses the string length as an integer number. The standard character is `!`.
+Strang supports all arithmetic operators (`+`, `-`, `*`, `/`) and uses the string length as an _'integer'_ number. The standard character is `!`.
 
 ```java
 // Addition
@@ -176,9 +179,9 @@ let 4 = "4"!;
 
 Check out all the operator definitions [here]()!
 
-### Integer
+### '*Int*'eger
 
-Strang itself doesn't support integers, but there are some int operators
+Strang itself doesn't support the `int` datatype, but there are still some _'int'_ operators that use the string length instead.
  - `"9"!` **Int Parse**
  ```java
 ?"6"!; //!!!!!! 
@@ -190,7 +193,7 @@ Strang itself doesn't support integers, but there are some int operators
 
 ### String Manipulation
 
-Strang offers plenty of operators for string manipulation, built straight in!
+Strang offers plenty of operators for string manipulation, built straight in.
  - `#` **Interweave**:
  ```java
 ?"abc" # "xy"; //axaybxbycxcy
@@ -215,3 +218,9 @@ Strang offers plenty of operators for string manipulation, built straight in!
 ?"ABCDEFGHIJKLMNOP" % "GHI";  //ABCDEF
 ?"3.14159265" % "15";  //3.14
  ```
+
+### Boolean Operators
+
+Strang doesn't support the `boolean` datatype, so Strang can use `"true"` `"false"` or `"maybe"`
+
+
