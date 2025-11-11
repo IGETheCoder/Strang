@@ -58,7 +58,7 @@ Most programming languages define strings using `"` quote marks. Some with `'` s
 ''''LEGAL""
 ""''"'LEGAL"''"'"
 ```
- - But if the amout of quotes are mismatched, it is an illegal string definition
+ - But if the amout of quotes are mismatched, it is an illegal string definition.
 ```
 "ILLEGAL'
 "ILLEGAL"'
@@ -176,25 +176,42 @@ let 4 = "4"!;
 
 Check out all the operator definitions [here]()!
 
+### Integer
+
+Strang itself doesn't support integers, but there are some int operators
+ - `"9"!` **Int Parse**
+ ```java
+?"6"!; //!!!!!! 
+ ```
+- `"target"["!!"]` **Char Of**
+ ```java
+?"apple"["!!!"]; //l
+ ```
+
 ### String Manipulation
 
 Strang offers plenty of operators for string manipulation, built straight in!
- - `#` **Interweave** 
+ - `#` **Interweave**:
  ```java
 ?"abc" # "xy"; //axaybxbycxcy
  ```
- - `^` , `^^` **To Lower** _and_ **To Upper**
+ - `^` , `^^` **To Lower** _and_ **To Upper**:
  ```java
 ?"HIGH"^; //high
 ?"low"^^; //LOW
  ```
- - `--` , `---` **Remove Substring** _and_ **Remove Characters**
+ - `--` , `---` **Remove Substring** _and_ **Remove Characters**:
  ```java
 ?"hello world" -- "lo";  //hel world
 ?"hello world" --- "lo"; //he wrd
  ```
-- `>-` , `-<` **Trim End** _and_ **Trim Start**
+- `>-` , `-<` **Trim End** _and_ **Trim Start**:
  ```java
 ?"abcde" >- "!!";  //abc
 ?"abcde" -< "!!";  //cde
+ ```
+- `%` **Truncate**:
+ ```java
+?"ABCDEFGHIJKLMNOP" % "GHI";  //ABCDEF
+?"3.14159265" % "15";  //3.14
  ```
