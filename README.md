@@ -14,6 +14,7 @@ This programming language is the closest you can get to perfection in the world!
 - [Naming](#naming)
 - [Operators](#operators)
 - [Selection](#selection)
+- [Functions](#functions)
 - [Conclusion](#conclusion)
 
 ## Supported Datatypes:
@@ -334,6 +335,40 @@ else
 
 If Strang gets a non-_'boolean'_ string, it will throw. I was considering another keyword, like `grasp` to use for non-'*boolean*'s, and will probably be implemented in the close future!
 
+## Functions
+
+Functions are declared using either of these keywords: `func` , `funcstr`<br>
+<br>
+`func` doesn't expect a return value,<br>
+`funcstr` does expect a return value.
+
+```java
+func Test()
+{
+    ?"you called?";
+}
+```
+```java
+funcstr Destroy()
+{
+    return "so you have chosen death...";
+}
+```
+When declaring a function, the function arguments must have the `let` keyword for each argument.
+
+```java
+funcstr Cocat(let a, let b)
+{
+    return a + ' ' + b;
+}
+```
+
+Calling the function is as simple as `FunctionName()` or if the function has arguments,
+
+``` java
+?Concat("Hello","World");
+```
+
 ## Conclusion
 
-The best language ever!
+The best language ever! You should use it for your everyday programming! Convince your boss to switch to Strang now!
