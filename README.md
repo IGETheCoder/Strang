@@ -14,6 +14,7 @@
 - [Naming](#naming)
 - [Operators](#operators)
 - [Selection](#selection)
+- [Loops](#loops)
 - [Functions](#functions)
 - [Conclusion](#conclusion)
 
@@ -335,6 +336,27 @@ else
 
 If Strang gets a non-_'boolean'_ string, it will throw. I was considering another keyword, like `grasp` to use for non-'*boolean*'s, and will probably be implemented in the close future!
 
+## Loops
+
+In Strang, the `for` loop doesn't exist. Our beloved `string` hates that guy. Instead we have the replacement `foreach`.<br>
+`foreach` loops through each individual character, and declares the character you currently index at.
+
+```java
+let target = "test";
+foreach (let c in target)
+{
+    ?c;
+}
+```
+```
+//t
+//e
+//s
+//t
+```
+
+We also have `while`, which acts similiarlly to `if`, except it loops. Like most programming languages... _i dont think i needed to explain that_
+
 ## Functions
 
 Functions are declared using either of these keywords: `func` , `funcstr`<br>
@@ -357,7 +379,7 @@ funcstr Destroy()
 When declaring a function, the function arguments must have the `let` keyword for each argument.
 
 ```java
-funcstr Cocat(let a, let b)
+funcstr Concat(let a, let b)
 {
     return a + ' ' + b;
 }
