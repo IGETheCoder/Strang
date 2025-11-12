@@ -118,6 +118,13 @@ Is true if both sides match letter for letter, and is case sensitive.
 ?"apple" != "zebra"; //true
 ```
 Is true if both sides do NOT match letter for letter, and is case sensitive.
+- `=` **Loosely Equals** (length)
+```java
+?"apple" = "zebra"; //true
+?"3"! = "3"!; //true
+?"6"! = "3"!; //false
+```
+Is true if both sides lengths are the same
 - `<` , `>` **Less Than** _and_ **Greater Than** (length)
 ```java
 ?"banana" > "apple"; //true
