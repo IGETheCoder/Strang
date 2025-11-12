@@ -300,8 +300,8 @@ Who said you could stop at that!
 - `=` **Loosely Equals** (length)
 ```java
 ?"apple" = "zebra"; //true
-?"3"! = "3"!; //true
-?"6"! = "3"!; //false
+?"3"! = "3"!;       //true
+?"6"! = "3"!;       //false
 ```
 - `<` , `>` **Less Than** _and_ **Greater Than** (length)
 ```java
