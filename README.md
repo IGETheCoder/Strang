@@ -161,17 +161,17 @@ Subtraction has 2 variants. The `-` operator acts identically to `>-`.<br>
 ```java
 // Subtraction (same as >-)
 let subtract = "abcde" - "!!";
-?subtract //abc
+?subtract; //abc
 ```
 ```java
 // Trim End
 let trimEnd = "HELP ME" >- "!!!";
-?trimEnd //HELP
+?trimEnd; //HELP
 ```
 ```java
 // Trim Start
 let trimStart = "Strang, not C Is Goated" -< "!!!!!!!!!!!!";
-?trimStart //C Is Goated
+?trimStart; //C Is Goated
 ```
 
 ## Naming:
