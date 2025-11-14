@@ -409,19 +409,21 @@ Calling the function is as simple as `FunctionName()` or if the function has arg
 
 ## Installation
 
-To install Strang, download the [StrangSetup.exe](). Follow the installation wizard, and you should be able to use in a **new** terminal:
+The Strang interpreter is still in the works! 
+<br><br>
+~~To install Strang, download the [StrangSetup.exe](). Follow the installation wizard, and you should be able to use in a **new** terminal:~~
 
 ```bash
 strang help
 ```
 
-To run a `.strang` file, in the terminal, provide the location of the file as the first argument:
+~~To run a `.strang` file, in the terminal, provide the location of the file as the first argument:~~
 
 ```bash
 strang folder\program.strang
 ```
 
-If you do not have a `.strang` file to execute, you can use the terminal as a text editor
+~~If you do not have a `.strang` file to execute, you can use the terminal as a text editor~~
 ```bash
 strang --t
 ```
@@ -429,7 +431,7 @@ strang --t
 strang --terminal
 ```
 
-For whatever reason, you can get debug info by inserting `--d` at the end of the strang command
+~~For whatever reason, you can get debug info by inserting `--d` at the end of the strang command~~
 
 ```bash
 strang folder\program.strang --d
