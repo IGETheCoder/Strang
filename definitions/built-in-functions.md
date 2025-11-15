@@ -11,6 +11,7 @@
  - [WriteLine](#writeline)
  - [Random](#random)
  - [ToTitleCase](#totitlecase)
+ - [IsNumber](#isnumber)
 
 ## LoremIpsum
 
