@@ -378,6 +378,9 @@ while ("true")
 
 ## Functions
 
+Strang has some built-in functions, which are listed [here](https://github.com/IGETheCoder/Strang/blob/main/definitions/built-in-functions.md).
+<br><br>
+
 Functions are declared using either of these keywords: `func` , `funcstr`<br>
 <br>
 `func` doesn't expect a return value,<br>
