@@ -7,7 +7,7 @@
 <p>This programming language is the closest you can get to perfection in the world!!</p>
 
 ## Download Interpreter:
-Latest release [here](https://github.com/IGETheCoder/Strang/releases/tag/v1.0.0)
+Latest release [here](https://github.com/IGETheCoder/Strang/releases/latest)
 
 ## Table Of Contents:
 - [Supported Datatypes](#supported-datatypes)
@@ -412,7 +412,7 @@ Calling the function is as simple as `FunctionName()` or if the function has arg
 
 ## Installation
 
-To install Strang, download the [StrangSetup.zip](https://github.com/IGETheCoder/Strang/releases/tag/v1.0.0) which contains `StrangSetup.exe` where then you follow the installation wizard. You should be able to use in a **new** terminal:
+To install Strang, download the [StrangSetup.zip](https://github.com/IGETheCoder/Strang/releases/latest) which contains `StrangSetup.exe` where then you follow the installation wizard. You should be able to use in a **new** terminal:
 
 ```bash
 strang help
