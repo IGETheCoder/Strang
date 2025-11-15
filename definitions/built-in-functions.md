@@ -111,6 +111,19 @@ WriteLine("world");
 ?ToTitleCase("apple"); //Apple
 ```
 
+## IsNumber
+
+`IsNumber(input)` Expects one parameter as an input string. It will output as a string _'boolean'_ whether all the characters in the input, are ASCII digits.
+
+```java
+let input = ReadLine();
+if (IsNumber(input))
+{
+	?"is num";
+	?input!;
+}
+```
+
 ## Finished?
 
 You can [Go Back](https://github.com/IGETheCoder/Strang/blob/main/README.md)
