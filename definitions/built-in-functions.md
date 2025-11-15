@@ -3,9 +3,16 @@
 [Go Back](https://github.com/IGETheCoder/Strang/blob/main/README.md)
 
 ## Table Of Contents
- - [Lorem Ipsum](#lorem-ipsum)
+ - [Lorem Ipsum](#loremipsum)
+ - [Length](#length)
+ - [Reverse](#reverse)
+ - [ReadLine](#readline)
+ - [Write](#write)
+ - [WriteLine](#writeline)
+ - [Random](#random)
+ - [ToTitleCase](#totitlecase)
 
-## Lorem Ipsum
+## LoremIpsum
 
 `LoremIpsum()` By default, expects no parameters, but can be provided with an optional `length` parameter.
 
