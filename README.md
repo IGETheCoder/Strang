@@ -6,6 +6,9 @@
 <p>Have you ever had to worry, or even consider what datatype a variable is that you declared decades ago? Let that worry wash away! Strang makes all datatypes string!</p>
 <p>This programming language is the closest you can get to perfection in the world!!</p>
 
+## Download Interpreter:
+Latest release [here](https://github.com/IGETheCoder/Strang/releases/tag/v1.0.0)
+
 ## Table Of Contents:
 - [Supported Datatypes](#supported-datatypes)
 - [Declaration](#declaration)
@@ -409,7 +412,7 @@ Calling the function is as simple as `FunctionName()` or if the function has arg
 
 ## Installation
 
-To install Strang, download the [StrangSetup.zip](https://github.com/IGETheCoder/Strang/tree/main/installation) which contains `StrangSetup.exe` where then you follow the installation wizard. You should be able to use in a **new** terminal:
+To install Strang, download the [StrangSetup.zip](https://github.com/IGETheCoder/Strang/releases/tag/v1.0.0) which contains `StrangSetup.exe` where then you follow the installation wizard. You should be able to use in a **new** terminal:
 
 ```bash
 strang help
